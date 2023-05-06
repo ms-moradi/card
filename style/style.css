@@ -1,0 +1,109 @@
+*{
+    margin:0;
+}
+
+
+html {
+	font-size: 62.5%; 
+}
+
+body{
+    background: #F2E9E2;
+
+}
+
+.container{
+    width: 46rem;
+    height: 35rem;
+    border-radius:.5rem ;
+    margin: auto;
+    margin-top: 15rem;
+    display: flex;
+}
+
+img{
+    width: 23rem;
+    height: 35rem;
+    border-radius: .5rem 0 0 .5rem;
+}
+
+.image-card{
+    flex:1;
+    width: 23rem;
+    height: 35rem;
+}
+
+.text-card{
+    flex:1;
+    width: 19.2rem;
+    height:30rem;
+    border-radius: 0 .5rem .5rem 0;
+    background-color:#fff;
+    padding: 2.5rem  2.4rem;
+}
+
+.text-title{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: .4rem;
+    font-size:1rem;
+    padding-bottom: 1.8rem;
+    color: rgb(129, 128, 128);
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Orelega One', cursive;
+    font-size:2.5rem;
+    font-weight: 400;
+    color: #1F2225;
+    margin-bottom: 1.8rem;
+    line-height: 2.5rem;
+}
+.text{
+    font-family: 'Fraunces', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Orelega One', cursive;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2rem;
+    color:#A6A9AE;
+    margin-bottom: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Orelega One', cursive;
+    margin-right: 1rem;
+    display: inline;
+    font-size:3rem;
+    color:rgba(61, 129, 104, .95);
+    letter-spacing: .1rem;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    width:17rem;
+    height:3.5rem;
+    color:#fff;
+    background-color:rgba(61, 129, 104, .95);
+    border: 0;
+    border-radius: .5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.price-del{
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline;
+    font-size:1.2rem;
+    color: #A6A9AE;
+}
+
+i{
+    margin: 0 1.4rem 0 0;
+}
